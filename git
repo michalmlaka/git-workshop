@@ -3,6 +3,11 @@ cd $PROJECT-PATH
 git add . -- add all changes in dir
 git commit --commit changes
 
-git status --show history
+git status --show current status
+git log --show changes
+
+git remote add origin git@github.com:michalmlaka/$repo-name.git
+
+git push -u origin master
 
 git 
