@@ -14,11 +14,11 @@ git remote add origin git@github.com:michalmlaka/$repo-name.git  --add github re
 
 git push -u origin master --push
 
-git pull -u origin master --pull
+git pull -u origin master --pull and commit
 
 git branch $name --new branch
 
-git checkout $name --change branc
+git checkout $name --change branch
 
 git merge $branch-name --merge current branch  with $branch-name
 
