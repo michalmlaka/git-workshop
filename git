@@ -6,8 +6,14 @@ git commit --commit changes
 git status --show current status
 git log --show changes
 
-git remote add origin git@github.com:michalmlaka/$repo-name.git
+git remote add origin git@github.com:michalmlaka/$repo-name.git  --add github repo via ssh as origin
 
-git push -u origin master
+git push -u origin master --push
 
-git 
+git pull -u origin master --pull
+
+git branch $name --new branch
+
+git checkout $name --change branch
+
+  
