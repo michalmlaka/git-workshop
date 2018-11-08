@@ -1,0 +1,8 @@
+git init $PROJECT-PATH --init dir 
+cd $PROJECT-PATH 
+git add . -- add all changes in dir
+git commit --commit changes
+
+git status --show history
+
+git 
