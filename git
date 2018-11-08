@@ -22,6 +22,7 @@ git checkout $name --change branch
 
 git merge $branch-name --merge current branch  with $branch-name
 
+test merge conflict
 
 
   
