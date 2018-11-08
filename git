@@ -16,7 +16,7 @@ git push -u origin master --push
 
 git pull -u origin master --pull and commit
 
-git branch $name --new branch
+git branch $name --create new branch
 
 git checkout $name --change branch
 
